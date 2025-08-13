@@ -31,6 +31,7 @@ python3 async_crawler.py https://example.com
 
 ## Project Structure
 .
+
 ├── async_crawler.py      # Asynchronous crawler implementation
 
 ├── sync_crawler.py       # Synchronous crawler implementation
@@ -41,6 +42,9 @@ python3 async_crawler.py https://example.com
 
 ## Dependencies
 The project uses the following Python libraries:
+
 beautifulsoup4 - HTML parsing
+
 tldextract - Domain extraction
+
 httpx - Asynchronous HTTP client
