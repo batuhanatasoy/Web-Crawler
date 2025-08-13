@@ -25,10 +25,13 @@ Clone the repository and install the dependencies:
 
 ## Usage
 ### Synchronous Crawler
+```bash
 python3 sync_crawler.py https://example.com
+```
 ### Asynchronous Crawler
+```bash
 python3 async_crawler.py https://example.com
-
+```
 ## Project Structure
  .
 
