@@ -1,8 +1,8 @@
 # Python Web Crawler (Sync & Async)
 
 This repository contains two versions of a simple web crawler:
-1. **Synchronous** crawler using `BeautifulSoup` for HTML parsing.
-2. **Asynchronous** crawler using `asyncio` and `httpx` for concurrent requests.
+1. **Synchronous** crawler using `BeautifulSoup` for HTML parsing,`httpx`for requests and `tldextract` for domain extraction.
+2. **Asynchronous** crawler using `asyncio` and `httpx` for concurrent requests,`BeautifulSoup` for HTML parsing and `tldextract` for domain extraction.
 
 Both crawlers extract and follow links within the same domain using `tldextract` for domain matching.
 
@@ -58,4 +58,4 @@ The project uses the following Python libraries:
 
 `tldextract` - Domain extraction
 
-`httpx` - Asynchronous HTTP client
+`httpx` -  HTTP client
