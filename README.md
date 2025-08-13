@@ -17,19 +17,19 @@ Both crawlers extract and follow links within the same domain using `tldextract`
 ## Installation
 Clone the repository and install the dependencies:
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-pip install -r requirements.txt
+-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+-cd YOUR_REPO_NAME
+-pip install -r requirements.txt
 
 
 
-##Usage
-###Synchronous Crawler
+## Usage
+### Synchronous Crawler
 python3 sync_crawler.py https://example.com
-###Asynchronous Crawler
+### Asynchronous Crawler
 python3 async_crawler.py https://example.com
 
-##Project Structure
+## Project Structure
 .
 ├── async_crawler.py      # Asynchronous crawler implementation
 
@@ -39,7 +39,7 @@ python3 async_crawler.py https://example.com
 
 └── README.md             # Project documentation
 
-##Dependencies
+## Dependencies
 The project uses the following Python libraries:
 beautifulsoup4 - HTML parsing
 tldextract - Domain extraction
