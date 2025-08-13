@@ -14,6 +14,14 @@ Both crawlers extract and follow links within the same domain using `tldextract`
 
 ---
 
+## Output Files
+Each crawler writes its results and errors to separate text files in the project directory:
+
+- `async_Errors.txt` — List of URLs that failed during the asynchronous crawl.
+- `async_successful_sites.txt` — List of successfully crawled URLs (async version).
+- `sync_Errors.txt` — List of URLs that failed during the synchronous crawl.
+- `sync_successful_sites.txt` — List of successfully crawled URLs (sync version).
+
 ## Installation
 Clone the repository and install the dependencies:
 ```bash
